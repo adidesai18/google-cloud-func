@@ -52,8 +52,8 @@ For understanding above procedure Follow this [Youtube Link](https://youtu.be/kz
 
 You can refer this links to run Function Locally:
 
-1. [Link 1](https://youtu.be/hnqeYOYDRYY)
-2. [Link 1](https://youtu.be/N1sSUU3XGu4)
+1. [Youtube Link 1](https://youtu.be/hnqeYOYDRYY)
+2. [Youtube Link 2](https://youtu.be/N1sSUU3XGu4)
 
 ## Install Google Cloud SDK
 
@@ -62,6 +62,8 @@ To check your current Python version, run python3 -V or python -V. Supported ver
 [Google Download link](https://cloud.google.com/sdk/docs/install)
 
 Note: To determine your machine hardware name, run uname -m from a command line.
+
+Reference [Youtube Link](https://youtu.be/wc2kuTaHl8Y)
 
 Run the script (from the root of the folder you extracted in the last step) using this command:
 
