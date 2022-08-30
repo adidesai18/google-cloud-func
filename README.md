@@ -33,14 +33,14 @@ For understanding above procedure Follow this [Youtube Link](https://youtu.be/kz
 
 ## Creating Requirments Txt File Environment
 
-1. create requirments.txt file in root foder
-   This file only contains the pacakges which are in current create virtual environment
-2. Below command To add new pacakges to our virtual environments
-   '''
-   pip install -r requirments.txt
-   '''
+create requirments.txt file in root foder
+This file only contains the pacakges which are in current create virtual environment
+Below command To add new pacakges to our virtual environments
+'''
+pip install -r requirments.txt
+'''
 
-   To upgrade pip inside virtual environment
-   '''
-   pip install --upgrade pip
-   '''
+To upgrade pip inside virtual environment
+'''
+pip install --upgrade pip
+'''
