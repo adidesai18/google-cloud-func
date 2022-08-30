@@ -72,3 +72,13 @@ Run the script (from the root of the folder you extracted in the last step) usin
 To initialize the gcloud CLI, run gcloud init:
 
 `./google-cloud-sdk/bin/gcloud init` or `gcloud init`
+
+## Some Google CLoud SDK Cheats
+
+`gcloud project list`
+
+`gcloud config set project Project Id`
+
+Function Deploy Command(Run this command from folder containing main.py):
+
+`gcloud functions deploy Function_Name --runtime python310 --trigger-http --allow-unauthenticated`
