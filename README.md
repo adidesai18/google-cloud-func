@@ -39,3 +39,17 @@ For understanding above procedure Follow this [Youtube Link](https://youtu.be/kz
    To upgrade pip inside virtual environment
 
    '''pip install --upgrade pip'''
+
+## To save changes of README.md on github
+
+First Command
+
+''' git add '''
+
+Secong Command
+
+''' git commit -m "Modified README.md" '''
+
+Third Command
+
+''' git push or git push --set-upstream origin develop '''
