@@ -42,10 +42,8 @@ For understanding above procedure Follow this [Youtube Link](https://youtu.be/kz
 
 ## To save changes of README.md on github:
 
-1. '''
-   git add
-   '''
+1. `git add`
 
-2. ''' git commit -m "Modified README.md" '''
+2. `git commit -m "Modified README.md"`
 
-3. ''' git push or git push --set-upstream origin develop '''
+3. `git push or git push --set-upstream origin develop`
