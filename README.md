@@ -42,7 +42,7 @@ For understanding above procedure Follow this [Youtube Link](https://youtu.be/kz
 
 ## To save changes of README.md on github:
 
-1. `git add`
+1. `git add .`
 
 2. `git commit -m "Modified README.md"`
 
@@ -54,6 +54,12 @@ You can refer this links to run Function Locally:
 
 1. [Youtube Link 1](https://youtu.be/hnqeYOYDRYY)
 2. [Youtube Link 2](https://youtu.be/N1sSUU3XGu4)
+
+Commands to run function locally:-
+
+`functions-framework --target hello_world --debug`
+
+`functions-framework --target hello_world --debug --port=4040`
 
 ## Install Google Cloud SDK
 
