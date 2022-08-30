@@ -71,4 +71,4 @@ Run the script (from the root of the folder you extracted in the last step) usin
 
 To initialize the gcloud CLI, run gcloud init:
 
-`./google-cloud-sdk/bin/gcloud init`
+`./google-cloud-sdk/bin/gcloud init` or `gcloud init`
