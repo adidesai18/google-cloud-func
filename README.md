@@ -64,7 +64,9 @@ To check your current Python version, run python3 -V or python -V. Supported ver
 Note: To determine your machine hardware name, run uname -m from a command line.
 
 Run the script (from the root of the folder you extracted in the last step) using this command:
+
 `./google-cloud-sdk/install.sh`
 
 To initialize the gcloud CLI, run gcloud init:
+
 `./google-cloud-sdk/bin/gcloud init`
