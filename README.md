@@ -47,3 +47,24 @@ For understanding above procedure Follow this [Youtube Link](https://youtu.be/kz
 2. `git commit -m "Modified README.md"`
 
 3. `git push or git push --set-upstream origin develop`
+
+## First Cloud Function
+
+You can refer this links to run Function Locally:
+
+1. [Link 1](https://youtu.be/hnqeYOYDRYY)
+2. [Link 1](https://youtu.be/N1sSUU3XGu4)
+
+## Install Google Cloud SDK
+
+To check your current Python version, run python3 -V or python -V. Supported versions are Python 3
+
+[Google Download link](https://cloud.google.com/sdk/docs/install)
+
+Note: To determine your machine hardware name, run uname -m from a command line.
+
+Run the script (from the root of the folder you extracted in the last step) using this command:
+`./google-cloud-sdk/install.sh`
+
+To initialize the gcloud CLI, run gcloud init:
+`./google-cloud-sdk/bin/gcloud init`
