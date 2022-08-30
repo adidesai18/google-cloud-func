@@ -40,9 +40,11 @@ For understanding above procedure Follow this [Youtube Link](https://youtu.be/kz
 
    '''pip install --upgrade pip'''
 
-## To save changes of README.md on github
+## To save changes of README.md on github:
 
-1. ''' git add '''
+1. '''
+   git add
+   '''
 
 2. ''' git commit -m "Modified README.md" '''
 
