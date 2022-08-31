@@ -88,7 +88,3 @@ To initialize the gcloud CLI, run gcloud init:
 Function Deploy Command(Run this command from folder containing main.py):
 
 `gcloud functions deploy Function_Name --runtime python310 --trigger-http --allow-unauthenticated`
-
-## Basic code for calling cloud function with data:-
-
-}
