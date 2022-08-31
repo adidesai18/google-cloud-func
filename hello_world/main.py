@@ -1,7 +1,7 @@
-from email import message
+import flask
 
-
-def hello_world(request):
+def hello_world(request=flask.request):
+    print(type(request))
     request_args=request.args
     request_json=request.get_json(silent=True)
     print(request_args)
@@ -26,6 +26,21 @@ def hello_world(request):
     #     return f"{counter}"
     else:
         name="world"
-    return f" Hello {name}"
+    headers= {
+        'Access-Control-Allow-Origin': '*',
+        'Content-Type':'application/json'
+        }
+
+    # text = '{"id1":"'+id1+'","var1":"'+var1+'"}'
+    response={
+        "name":request_json["name"],
+        "age":request_json["age"],
+    }
+    # return (
+    #         'Could not verify your access level for that URL.\n'
+    #         'You have to login with proper credentials', 401,
+    #         {'WWW-Authenticate': 'Basic realm="Login Required"'})
+    return flask.make_response(response, 200, headers)
+    # return response(f" Hello {name})"
 
     
