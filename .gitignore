@@ -1,3 +1,5 @@
 .venv/
 .gcloudignore
 dart_code.dart
+.env
+email_functions/.env.yaml

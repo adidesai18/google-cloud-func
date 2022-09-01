@@ -88,3 +88,16 @@ To initialize the gcloud CLI, run gcloud init:
 Function Deploy Command(Run this command from folder containing main.py):
 
 `gcloud functions deploy Function_Name --runtime python310 --trigger-http --allow-unauthenticated`
+
+## Add envirnoment variables:-
+
+1. Create .env file in root of folder
+2. export SENDGRID_API_KEY=KEY
+3. In terminal run command `source .env` to set api key
+4. Run command `printenv | grep SENDGRID_API_KEY`
+
+## Deploying cloud functions with environment variables and other dependencies
+
+we have to create a `.env.yaml` file and `requirements.txt` in the same directory of our main.py and run the following command:
+
+`gcloud functions deploy [Funtion_Name] --env-vars-file .env.yaml --runtime python310 --trigger-http --allow-unauthenticated`
