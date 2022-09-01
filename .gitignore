@@ -3,4 +3,5 @@
 dart_code.dart
 .env
 email_functions/.env.yaml
-whats_sender
+whats_sender/__pycache
+whats_sender/main.py

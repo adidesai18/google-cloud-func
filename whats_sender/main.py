@@ -54,6 +54,8 @@ def broadcast(request=flask.request):
                                                 for receiver in request_json["receiver"]:
                                                                 payload = "token="+os.environ.get("ULTRAMSG_WHATSAPP_TOKEN")+"&to="+receiver+",&body="+request_json["message"]+"&priority=10&referenceId="
                                                                 response = requests.request("POST", "https://api.ultramsg.com/"+os.environ.get("ULTRAMSG_INSTANCE_ID")+"/messages/chat", data=payload, headers=ultramsg_headers)
+                                                                if response.text[2]=="e" :
+                                                                                return flask.make_response({"error":str(response.json()["error"])}, 500,func_response_headers)
                                                                 for attachment in request_json["attachments"]:
                                                                         if attachment["send_as"]=="image":
                                                                                 img_payload= "token="+os.environ.get("ULTRAMSG_WHATSAPP_TOKEN")+"&to="+receiver+",&image="+attachment["URL"]+"&caption=&referenceId=&nocache="
