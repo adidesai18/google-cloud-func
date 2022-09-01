@@ -48,6 +48,8 @@ For understanding above procedure Follow this [Youtube Link](https://youtu.be/kz
 
 3. `git push or git push --set-upstream origin develop`
 
+4. `git rm -r --cached .`
+
 ## First Cloud Function
 
 You can refer this links to run Function Locally:
