@@ -4,7 +4,7 @@ import os
 # from sendgrid.helpers.mail import Mail
 
 def get_bearer_token(request=flask.request):
-    bearer_token=request.headers.get("Authorization")
+    bearer_token=request.headers.get("Authorization",None)
     if not bearer_token:
         flask.abort(401,"Provide token in headers")
         headers= {
