@@ -1,3 +1,4 @@
 functions-framework
 sendgrid
 requests
+firebase-admin
