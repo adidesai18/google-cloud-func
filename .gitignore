@@ -6,4 +6,5 @@ email_functions/.env.yaml
 whats_sender
 email_functions/__pycache__
 hello_world/__pycache__
+firebase_credentials.json
 
