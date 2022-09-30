@@ -39,6 +39,7 @@ in terminal. Basically, brew is the equivalent to apt (advanced package tool) in
 5. If your are using git for first time then use this commands before running below commands
 
    `git config --global user.email "your email id"`
+
    `git config --global user.name "your name"`
 
 6. `git add`
