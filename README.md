@@ -1,5 +1,10 @@
 # Google Cloud Function Course
 
+## README commands
+
+1. (#) is equivalent to H1 and (##) is equivalent to H2 and so on.
+2. [Link Text](url) is to create word with attach url
+
 ## Starting Project
 
 To start project new project in google cloud,we can go to [Firebase Console](https://console.firebase.google.com) or create it from [Google Cloud Platform Console](https://console.cloud.google.com)
@@ -13,10 +18,32 @@ If you are using Mac OS, then you can install git by typing
 
 in terminal. Basically, brew is the equivalent to apt (advanced package tool) in linux .
 
-## Adding Project to Readme file
+## Adding Project requirements
 
-1. create README.md file (md stands for mark down)
-2. To see preview click on top right corner button in VS Code
+1. create README.md file (md stands for mark down) or by command
+
+   `echo "# Google Cloud Function Course" >> README.md`
+
+2. To see preview click on top right corner button in VS Code.
+3. Create .gitignore file
+4. Create new repository in GitHub
+5. Add discription of respository in short and
+6. Add hidden or sensitive files in gitignore file
+
+## Add project to GitHub
+
+1. `git init` Creates git repository to current directory
+2. `git remote add origin https://github.com/adidesai9009/google-cloud-func.git` Add files to hub
+3. `git status` Shows the status of repository
+4. `ls -a ` show all hidden files
+5. If your are using git for first time then use this commands before running below commands
+
+   `git config --global user.email "your email id"`
+   `git config --global user.name "your name"`
+
+6. `git add`
+7. `git commit -m "first commit"`
+8. `git push -u origin main`
 
 ## Creating Virtual Environment
 
