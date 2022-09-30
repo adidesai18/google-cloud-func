@@ -33,7 +33,7 @@ in terminal. Basically, brew is the equivalent to apt (advanced package tool) in
 ## Add project to GitHub
 
 1. `git init` Creates git repository to current directory
-2. `git remote add origin https://github.com/adidesai9009/google-cloud-func.git` Add files to hub
+2. `git remote add origin https://github.com/adidesai9009/google-cloud-func.git` Create a new, empty Git repository on your remote server
 3. `git status` Shows the status of repository
 4. `ls -a ` show all hidden files
 5. If your are using git for first time then use this commands before running below commands
@@ -42,9 +42,16 @@ in terminal. Basically, brew is the equivalent to apt (advanced package tool) in
 
    `git config --global user.name "your name"`
 
-6. `git add`
+6. `git add .` Adds a change in the working directory
 7. `git commit -m "first commit"`
 8. `git push -u origin main`
+9. `git branch develop` Creates new branch
+10. `git branch` Shows all branches
+11. `git checkout develop` To move in develop branch
+
+    Instead of using above 2 commands use `git checkout -b develop`
+
+12. `git branch -D develop` To delete branch locally
 
 ## Creating Virtual Environment
 
