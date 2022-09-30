@@ -3,6 +3,20 @@
 ## Starting Project
 
 To start project new project in google cloud,we can go to [Firebase Console](https://console.firebase.google.com) or create it from [Google Cloud Platform Console](https://console.cloud.google.com)
+We can create project from firebase too.To integrate project click on dropdown menu in google cloud and in [ALL] section select the project
+
+## Install Git
+
+If you are using Mac OS, then you can install git by typing
+
+`brew install git`
+
+in terminal. Basically, brew is the equivalent to apt (advanced package tool) in linux .
+
+## Adding Project to Readme file
+
+1. create README.md file (md stands for mark down)
+2. To see preview click on top right corner button in VS Code
 
 ## Creating Virtual Environment
 
