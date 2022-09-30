@@ -29,6 +29,7 @@ in terminal. Basically, brew is the equivalent to apt (advanced package tool) in
 4. Create new repository in GitHub
 5. Add discription of respository in short and
 6. Add hidden or sensitive files in gitignore file
+7. Ignore .venv/ folder
 
 ## Add project to GitHub
 
@@ -55,17 +56,11 @@ in terminal. Basically, brew is the equivalent to apt (advanced package tool) in
 
 ## Creating Virtual Environment
 
-First we have to install 'python3-venv' with following command:
-
 1. Below command install python3 on system with pip3 latest version
 
    `brew install python3`
 
-2. Below command install virtual environment on system
-
-   `sudo pip install virtualenv`
-   or
-   `sudo -H pip install virtualenv`
+2. If you are using Python 3.3 or newer, the `venv` module is the preferred way to create and manage virtual environments. `venv` is included in the Python standard library and requires no additional installation.
 
 3. Below command creates virtual environment on system
 
@@ -73,7 +68,21 @@ First we have to install 'python3-venv' with following command:
 
 4. Below command to activate virtual environment on system
 
-   `source .venv/bin/activate`
+   `source .venv/bin/activate` or `. .venv/bin/activate`
+
+5. To install pacakge use commads
+
+   `pip3 install package_name` or `python3 -m pip install requests`
+
+   `pip install package_name` works in virtual environment
+
+6. To check location of python use
+
+   `which python`
+
+7. Upgrade your pip
+
+   `pip3 install --upgrade pip` or `python3 -m pip install --upgrade pip`
 
 For understanding above procedure Follow this [Youtube Link](https://youtu.be/kz4gbWNO1cw)
 
