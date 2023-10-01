@@ -93,6 +93,7 @@ For understanding above procedure Follow this [Youtube Link](https://youtu.be/kz
 2. Below command To add new pacakges to our virtual environments
 
    `pip install -r requirments.txt`
+   `pip uninstall -r requirements.txt -y`
 
    To upgrade pip inside virtual environment
 
